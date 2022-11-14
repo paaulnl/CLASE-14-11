@@ -1,0 +1,39 @@
+class Student:
+    ##atributos
+    id = 0
+    dv = ''
+    alternative_id = ''
+    names=''
+    firstlast_name=''
+    secondlast_name=''
+    ## fin atributos
+    ##metodos
+    def __init__(self,id,run,dv,alternative_id,names,firstlast_name,secondlast_name):
+        self.id = id ###TODO LO KE SETEE
+        self.run = run
+        self.dv = dv
+        self.alternative_id = alternative_id
+        self.names = names
+        self.firstlas_name = firstlas_name
+        self.secondlast_name = secondlast_name
+    ##entrada de datas
+run = int(input("Ingrese su rut,sin digito verificador. De no tener rut ingrese 1."))
+if(run == 1):
+    other.run = int(input("Ingrese su identificacion"))
+dv = int(input("Ingrese el codigo verificador, de no tener digite 10"))
+if(dv == 10):
+    print("Registro de rut listo.")
+
+names = input("Ingrese su nombre:")
+firstlas_name = input("Ingrese su primer apellido")
+secondlast_name = input("Ingrese su segundo apellido")
+class Subject:
+    Subject_name=''
+    
+
+
+
+
+
+
+
